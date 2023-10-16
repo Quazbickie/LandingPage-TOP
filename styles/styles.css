@@ -164,14 +164,13 @@ html, body {
     flex-basis: 60vw;
     display: flex;
     justify-content: space-evenly;
-    padding: 40px;
 
 }
 
 .sign-up-middle-left {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .sign-up-middle-left h5 {
@@ -184,6 +183,11 @@ html, body {
     color: #E5E7EB;
     border: 1px solid red;
 
+}
+
+.call-to {
+    color: #F9FAF8;
+    font-size: 36px;
 }
 
 .sign-up-middle-right {
