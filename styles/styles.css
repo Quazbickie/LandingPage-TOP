@@ -38,7 +38,7 @@ html, body {
     align-items: center;
     background-color: #1F2937;
     padding: 50px;
-    gap: 30px;
+    gap: 5px;
     margin-bottom: 30px;
 }
 
@@ -48,9 +48,9 @@ html, body {
     justify-content: space-between;
     gap: 10px;
 
+    flex-basis: 40vw;
     /* border: 1px solid red; */
     
-    margin-left: 80px;
 }
 
 
@@ -78,9 +78,13 @@ html, body {
 }
 
 .hero-img {
-    margin-right: 80px;
-
+    flex-basis: 40vw;
     /* border: 1px solid red; */
+}
+
+.img-author {
+    text-align: center;
+    color: #e5e7eb;
 }
 
 .container-information {
@@ -157,14 +161,14 @@ html, body {
 }
 
 .sign-up-middle {
-
     border: 1px solid blue;
     border-radius: 18px;
     background-color: #3882F6;
     flex-basis: 60vw;
     display: flex;
     justify-content: space-evenly;
-
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 .sign-up-middle-left {
@@ -173,21 +177,15 @@ html, body {
     justify-content: center;
 }
 
-.sign-up-middle-left h5 {
-    border: 1px solid red;
-    font-size: x-large;
-    color: #F9FAF8;
-}
-
-.sign-up-middle-left p {
-    color: #E5E7EB;
-    border: 1px solid red;
-
-}
 
 .call-to {
     color: #F9FAF8;
     font-size: 36px;
+    margin-bottom: 0;
+}
+
+.call-to-desc {
+    color: #E5E7EB;
 }
 
 .sign-up-middle-right {
@@ -205,4 +203,13 @@ html, body {
     color: #E5E7EB;
     font-size: 16px;
     font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    background-color: #1F2937;
+    color: #E5E7EB;
 }
