@@ -16,6 +16,7 @@ html, body {
     font-size: 24px;
     color: #F9FAF8;
     margin-left: 250px;
+    font-weight: bolder;
 }
 
 .container-header ul {
@@ -66,6 +67,14 @@ html, body {
 
 .hero-description button {
     align-self: flex-start;
+    width: 150px;
+    height: 35px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 10px;
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .hero-img {
@@ -156,7 +165,7 @@ html, body {
     display: flex;
     justify-content: space-evenly;
     padding: 40px;
-    
+
 }
 
 .sign-up-middle-left {
@@ -190,5 +199,6 @@ html, body {
     border: 2px solid white;
     border-radius: 10px;
     color: #E5E7EB;
+    font-size: 16px;
     font-weight: bold;
 }
