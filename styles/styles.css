@@ -38,19 +38,15 @@ html, body {
     align-items: center;
     background-color: #1F2937;
     padding: 50px;
-    gap: 5px;
+    gap: 100px;
     margin-bottom: 30px;
 }
 
 .hero-description{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 10px;
-
-    flex-basis: 40vw;
-    /* border: 1px solid red; */
-    
+    justify-content: flex-start;
+    flex-basis: 35vw;   
 }
 
 
@@ -58,11 +54,13 @@ html, body {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin-top: -80px;
 }
 
 .hero-description p {
     font-size: 18px;
     color: #e5e7eb;
+    margin-top: -10px;
 }
 
 .hero-description button {
@@ -79,7 +77,16 @@ html, body {
 
 .hero-img {
     flex-basis: 40vw;
-    /* border: 1px solid red; */
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img img {
+    margin: auto;
+    text-align: center;
 }
 
 .img-author {
