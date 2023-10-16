@@ -38,7 +38,7 @@ html, body {
     background-color: #1F2937;
     padding: 50px;
     gap: 30px;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 }
 
 .hero-description{
@@ -137,4 +137,58 @@ html, body {
     font-size: x-large;
     align-self: flex-end;
     margin-right: 50px;
+}
+
+.container-sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+
+}
+
+.sign-up-middle {
+
+    border: 1px solid blue;
+    border-radius: 18px;
+    background-color: #3882F6;
+    flex-basis: 60vw;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    
+}
+
+.sign-up-middle-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.sign-up-middle-left h5 {
+    border: 1px solid red;
+    font-size: x-large;
+    color: #F9FAF8;
+}
+
+.sign-up-middle-left p {
+    color: #E5E7EB;
+    border: 1px solid red;
+
+}
+
+.sign-up-middle-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-middle-right button {
+    width: 150px;
+    height: 35px;
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: #E5E7EB;
+    font-weight: bold;
 }
